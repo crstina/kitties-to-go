@@ -1,17 +1,19 @@
 * {
   box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
 }
 header {
   background-color: #0099cc;
   padding-left: 100px;
+  padding-bottom: 0px;
 }
 p {
   color: #262626
 }
 aside {
   float: right;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 0px;
+  padding-left: 50px;
 }
 .header-h1 {
   color: white
@@ -19,12 +21,21 @@ aside {
 .header-h2 {
   color: white
 }
-nav {
+.header-h2-emphasis {
+  color: white;
+  font-style: italic;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.top-nav {
   background-color: #d9d9d9;
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 100px;
+}
+.nav-text {
+  color: black;
 
 }
 .welcome-title {
@@ -33,4 +44,14 @@ nav {
 .main-section {
   padding-left: 100px;
   padding-right: 50px;
+}
+blockquote {
+  color: #0099cc
+}
+footer {
+  background-color: #595959;
+}
+.footer-nav {
+  color: white;
+  background-color: #595959;
 }
